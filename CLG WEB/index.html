@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Satyanarayana</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Satyanarayana</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img class="profile1" src="Screenshot_20220121-083001.jpg" alt="Profile" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Satyanarayana</h1>
+        <p class="section__text__p2">Full Stack / Cyber security  </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open(`assets/PACKET ANALYSIS.pdf`)"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/yerupalli-v-v-satyanarayana-54b074335/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/SRIMAHAVISHNU'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/4-edited-crop2.jpg" alt="Profile picture" class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.C.A Bachelors Computer Applications<br />MCA</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hi, I’m Satyanarayana. As a full stack developer, I specialize in building secure web applications. My expertise in penetration testing and cybersecurity helps me identify and fix vulnerabilities, ensuring robust protection. I stay updated with the latest trends and enjoy solving complex problems through coding and security practices.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Full Stack</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 class="hexp">HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 class="hexp">CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 class="hexp">React</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 class="hexp">JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 class="hexp">Spring Boot</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 class="hexp">Php</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Penetration</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 class="hexp">WEB SECURITY</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 class="hexp">Shell Scripting</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 class="hexp">Networking</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 class="hexp">Tools</h3>
+                  <p>Burpsuite</p>
+                  <p>Metasploit</p>
+                  <p>Wireshark</p>
+                  <p>Nmap</p>
+                  
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section class="cybersecurity1">
+      <div class="cybersecurity">CYBER SECURITY</div>
+      <div class="security">
+        <div class="vuln">
+        <h2>VULNERABILITY ASSESSEMNT</h2>
+        <img class="vulnimg" src="./assets/vulnerability-assessment-tools.png" alt="">
+        <div class="vulntools">
+        <h4>Experience Tools in</h4>
+        <p>> Nessus</p>
+        <p>> Openvas</p>
+      </div>
+        <div class="vulninfo">
+          <h5>Vulnerability Assessment:</h5>
+          <p>A vulnerability assessment is a systematic process used to identify, classify, and prioritize security vulnerabilities in an IT environment.This process is crucial for understanding the security posture of an organization and mitigating potential risks before they can be exploited by cybercriminals.</p>
+        </div>
+      </div>
+      <div class="exploit">
+        <h2>EXPLOITATIOIN</h2>
+        <img class="expimg" src="./assets/exploit.png" alt="">
+        <h4>Experience Tools in</h4>
+        <p>> Metasploit</p>
+        <p>> Mimikatz</p>
+        <div class="expinfo">
+          <h5>EXPLOITATIOIN:</h5>
+          <P>Exploitation involves taking advantage of vulnerabilities in systems, networks, or applications to gain unauthorized access or perform malicious actions,Exploitation involves using a discovered vulnerability to execute a malicious action on a target system. This can include running arbitrary code, gaining elevated privileges, or accessing sensitive</P>
+        </div>
+      </div>
+      <div class="password">
+        <h2>PASSWORD CRACKING</h2>
+        <img class="expimg" src="./assets/OIP.jpg" alt="">
+        <h4>Experience Tools in</h4>
+        <p>> John The Ripper</p>
+        <p>> Hydra</p>
+        <p>> Hashcat</p>
+        <div class="expinfo">
+          <h5>PASSWORD:</h5>
+          <P>Password cracking is a method used by hackers to gain unauthorized access to systems by deciphering or guessing passwords. Here’s an overview of how it works and the common techniques involved:</P>
+        </div>
+      </div>
+      <div class="network">
+        <h2>NETWORK SPOOFING</h2>
+        <img class="expimg" src="./assets/what_is_wi-fi_spoofing.png" alt="">
+        <h4>Experience Tools in</h4>
+        <p>> Wireshark</p>
+        <p>> Tcpdump</p>
+        <p>> Bettercap</p>
+        <div class="netinfo">
+          <h5>SPOOFING:</h5>
+          <P>Network spoofing involves creating fake access points that appear as legitimate Wi-Fi networks. These fake networks are often set up in high-traffic public locations like coffee shops, libraries, and airports. Hackers give these access points common names like “Free Airport Wi-Fi” or “Coffeehouse” to lure unsuspecting users into connecting</P>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://th.bing.com/th/id/OIG3.vTvEpqrz0_pq1nEZyxVS?pid=ImgGn"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Clone Websites Netflix/amazon</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://th.bing.com/th/id/OIG4.ZbL0U7BBjjFYXN2NodwI?w=1024&h=1024&rs=1&pid=ImgDetMain"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">FireWall Configuration</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://th.bing.com/th/id/OIG2.jDAB1CIiiLexFlfvX7Wk?w=1024&h=1024&rs=1&pid=ImgDetMain"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Malware Detection System(IDS)</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:yeripillivenkya4@gmail.com">yeripillivenkya4@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/yerupalli-v-v-satyanarayana-54b074335/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Satyanarayana. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
